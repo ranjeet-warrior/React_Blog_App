@@ -4,7 +4,7 @@ import Card from '../Component/Card'
 import SmallCard from '../Component/SmallCard';
 
 const Hollywood = () => {
-    const [detail, setDetail] = useContext(store);
+    const [detail,setDetail] = useContext(store);
     console.log(detail);
     return (
         <div>
