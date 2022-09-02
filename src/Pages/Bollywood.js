@@ -16,6 +16,7 @@ const Bollywood = () => {
                     {
                         detail.filter((article) => { return article.category === "Bollywood" }).map((n) => (
                             <Card
+                            key={n.id}
                                 articleid={n.id}
                                 imgUrl={n.Image}
                                 title={n.title}
@@ -30,6 +31,7 @@ const Bollywood = () => {
                     {
                         detail.filter((article) => { return article.category === "Bollywood" }).map((n) => (
                             <SmallCard
+                            key={n.id}
                                 articleid={n.id}
                                 imgUrl={n.Image}
                                 description={n.description.slice(0, 200)}

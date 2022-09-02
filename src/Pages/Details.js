@@ -35,7 +35,7 @@ const Details = (props) => {
     
     {
       "id": 3,
-      "title": "SS Rajamouli's RRR hailed by Eternals star Patton Oswalt: F**ken RRR is insane",
+      "title": "SS Rajamouli's RRR hailed by Eternals star Patton Oswalt:  RRR is insane",
       "Image": "https://filmfare.wwmindia.com/content/2022/may/rrrpattonoswalt41653717404.jpg",
       "category": "Bollywood",
       "description": "Hollywood comedian and actor Patton Oswalt cannot get enough of RRR. The actor who is best known for his Marvel roles including Eternals was left impressed with director SS Rajamouli's latest magnum opus. He recently took to Twitter to recommend the movie.RR was a megahit that had a successful box office run. Apart from breaking records in Indian cinemas, the film also garnered huge praise from international critics and audiences. In a Tweet, Patton Oswalt urged people to watch RRR. He wrote, “If this ISN’T playing near you in IMAX then this is the next best way to watch it. Fucken @RRRMovie is insane.When the team of RRR responded to thank Oswalt, he replied, “You guys are out of your f**king minds, you should not be allowed to make films, and I can’t wait to see what you do next.RR is a period drama starring Ram Charan and NTR Jr and follows two revolutionaries - Alluri Sitarama Raju and Komaram Bheem as they go up against the British rule in India. The film was released on March 24 this year. Since then, it has garnered significant buzz. It also kickstarted a debate on the way pan-India films are perceived."

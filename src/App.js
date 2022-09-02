@@ -10,6 +10,7 @@ import Food from "./Pages/Food";
 import SingleBlogPage from "./Pages/SingleBlogPage";
 import Details from "./Pages/Details";
 import NotFound from "./Pages/NotFound";
+import "./Style.css";
 
 function App() {
   return (

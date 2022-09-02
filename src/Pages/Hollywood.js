@@ -4,7 +4,7 @@ import Card from '../Component/Card'
 import SmallCard from '../Component/SmallCard';
 
 const Hollywood = () => {
-    const [detail,setDetail] = useContext(store);
+    const [detail, setDetail] = useContext(store);
     console.log(detail);
     return (
         <div>
@@ -15,6 +15,7 @@ const Hollywood = () => {
                     {
                         detail.filter((article) => { return article.category === "Hollywood" }).map((n) => (
                             <Card
+                            key={n.id}
                                 articleid={n.id}
                                 imgUrl={n.Image}
                                 title={n.title}
@@ -29,6 +30,7 @@ const Hollywood = () => {
                     {
                         detail.filter((article) => { return article.category === "Hollywood" }).map((n) => (
                             <SmallCard
+                            key={n.id}
                                 articleid={n.id}
                                 imgUrl={n.Image}
                                 description={n.description.slice(0, 200)}

@@ -1,135 +1,144 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: rgb(7, 50, 109);
+  color: #0d0d0d;
 }
-body{
-  background-color: rgb(27, 200, 209);
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
-a{
+a {
   text-decoration: none;
+  color: #0d0d0d;
 }
-
-.container__header{
+hr {
+  margin: 10px auto;
+  width: 80%;
+  border: 1px 0 0 0;
+}
+img {
+  border-radius: 15px;
+}
+.container__header {
   text-align: center;
   margin-top: 50px;
-  
-  
 }
 .container__header p {
   display: inline-block;
   font-size: 25px;
-  color: brown;
+  color: #0d0d0d;
   font-weight: light;
   margin-right: 10px;
   transform: rotate(-90deg);
 }
-.container__header h1{
+.container__header h1 {
   display: inline-block;
   font-weight: bolder;
-  color: brown;
+  color: #0d0d0d;
   font-size: 40px;
 }
 
-
-.container__button button{
+.container__button button {
   background: none;
   border: none;
 }
 
-
-
-
-.nav{
+.nav {
+  margin-top: 15px;
   display: flex;
-  margin-left: 150px;
+  justify-content: center;
 }
-.nav ul{
+.nav ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
 }
-.nav ul li{
+.nav ul li {
   margin: 10px 60px;
   text-decoration: none;
+  color: #0d0d0d;
+}
+.nav ul li:hover {
+  font-size: 1.2rem;
+  transition: all 0.2s ease-in-out;
 }
 
-
-.main__container{
+.main__container {
+  display: flex;
+}
+.card__Home {
+  /* border: 2px solid red; */
+  height: 500px;
+  margin-top: 50px;
+}
+.card__Home h3 {
+  margin-bottom: 18px;
+}
+.card__Home img {
+  box-sizing: border-box;
+  height: 300px;
+  border-radius: 15px;
+}
+.card__container {
   display: flex;
 }
 
-
-.card__container{
-  display: flex;
- 
+.card__container img {
+  width: 300px;
+  height: 200px;
 }
 
-  .card__container img{
-      width: 300px;
-      height: 200px;
-  } 
-
-
-
-.card__small{
+.card__small {
   display: flex;
   width: 200px;
   margin-bottom: 10px;
-  
 }
 
-.card__data{
+.card__data {
   display: flex;
 }
 
-.card__small img{
-  width: 100px;
-  height: 100px;
+.card__small img {
+  width: 200px;
+  height: 150px;
 }
-.small{
+.small {
   margin-left: 10px;
 }
 
-
-
-.rightbar{
+.rightbar {
   width: 70%;
 }
-.rightbar2{
+.rightbar2 {
   width: 70%;
   display: inline-block;
-
 }
 
-.sidebar{
+.sidebar {
   width: 20%;
   margin-left: 40px;
 }
-.sidebar2{
+.sidebar2 {
   display: inline-block;
 
-  
   margin-left: 40px;
 }
 
-.main__container{
+.main__container {
   margin: 0px 10%;
 }
 
-.bigcard__data{
+.bigcard__data {
   box-sizing: border-box;
   padding-right: 20px;
   margin-left: 20px;
 }
-.bigcard__data h5{
-  color: black;
+.bigcard__data h5 {
+  color: #0d0d0d;
   text-decoration: none;
 }
 
-
-.advertisement{
+.advertisement {
   text-align: center;
   box-sizing: border-box;
   padding-top: 140px;
@@ -140,137 +149,133 @@ a{
   font-weight: bolder;
 }
 
-.Home{
+.Home {
   margin: 20px 10%;
 }
-.home__container{
+.home__container {
   display: flex;
 }
 
-.home__first{
+.home__first {
   text-align: center;
 
   box-sizing: border-box;
   display: inline-block;
   color: white;
-  width: 70% ;
-  height: 600px;
-  background: url("https://www.holidify.com/images/cmsuploads/compressed/2999_20190305160539.jpg");
+  min-width: 70%;
+
+  background: url("https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-position: center;
   border-radius: 15px;
   cursor: pointer;
 }
-.home__first h1{
+.home__first h1 {
   padding-top: 300px;
-  color: black;
+  color: #0d0d0d;
 }
-.home__sec{
-  display: inline-block;
-  
-  width: 30%;
-  height: 300px;
+.home_right_container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+.home__sec {
   margin-left: 20px;
 }
-.home__sec img{
-  width: 100%;
-  height: 390px;
+.home__sec img {
+  width: 95%;
   border-radius: 15px;
+  background-position: center;
+  box-sizing: border-box;
 }
-.home__thir h4{
-  position: relative;
-  bottom: 130px;
-  left: 30%;
-  color: rgb(33, 144, 81);
 
-  
-}
-.home__thir{
-  display: inline-block;
-  width: 350px;
-  height: 250px;
-  position: absolute;
-  top: 550px;
+.home__thir {
+  margin-left: 20px;
+  top: 540px;
   border-radius: 15px;
-  left: 1020px;
+  left: 920px;
 }
-.home__thir img{
-  width: 100%;
-  height: 250px;
+.home__thir img {
+  width: 95%;
+  /* height: 350px; */
   border-radius: 15px;
+  background-position: center;
+  box-sizing: border-box;
 }
-.home__left{
+.home__left {
   margin: 20px 50px 20px 0px;
   display: inline-block;
   text-align: center;
   width: 29%;
   height: 400px;
 }
-.home__left img{
+.home__left img {
   width: 100%;
+  border-radius: 15px;
 }
-.home__bigcard__data{
+.home__bigcard__data {
   margin-top: 20px;
 }
-.Top{
+.Top {
   display: inline-block;
   margin-left: 600px;
   margin-top: 40px;
 }
 
-@media (max-width: 480px){
-  .rightbar{
-      width: 100%;
+@media (max-width: 480px) {
+  .rightbar {
+    width: 100%;
   }
-  .sidebar{
-      display: none;
-      width: 20%;
-      margin-left: 40px;
+  .sidebar {
+    display: none;
+    width: 20%;
+    margin-left: 40px;
   }
-  .nav{
-      
-      margin-left: 10px;
+  .nav {
+    margin-left: 10px;
   }
-  .nav ul{
-      display: inline-block;
-      list-style-type: none;
-  }
-
-  .card__container img{
-      width: 100px;
-      height: 100px;
+  .nav ul {
+    display: inline-block;
+    list-style-type: none;
   }
 
-  
-  .home__sec{
-      display: none;
-  }
-  .home__thir{
-      display: none;
-  }
-  .Top{
-
-      display: none;
-      
-      margin-top: 40px;
+  .card__container img {
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
   }
 
-  
-  .home__left{
-      width: 100%;
+  .home__sec {
+    display: none;
   }
-  .home__left img{
-      width: 100%;
+  .home__thir {
+    display: none;
   }
-  .home__first{
-      width: 100%;
+  .Top {
+    display: none;
+
+    margin-top: 40px;
   }
-  .rightbar2{
-      width: 100%;
+
+  .home__left {
+    width: 100%;
   }
-  .single__page{
-      width: 70%;
+  .home__left img {
+    border-radius: 15px;
+    width: 100%;
   }
-  .single__page img{
-      width: 100%;
-      height: 40vh;
+  .home__first {
+    width: 100%;
+  }
+  .rightbar2 {
+    width: 100%;
+  }
+  .single__page {
+    width: 70%;
+  }
+  .single__page img {
+    border-radius: 15px;
+    width: 100%;
+    height: 40vh;
   }
 }
